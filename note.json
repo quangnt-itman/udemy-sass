@@ -1,0 +1,12 @@
+{
+  "name": "sass-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chinhhn",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass app/src/styles/scss/main.scss app/src/styles/css/main.css",
+    "watch-sass": "node-sass -w app/src/styles/scss/main.scss app/src/styles/css/main.css"
+  }
+}
